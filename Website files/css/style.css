@@ -1,0 +1,1112 @@
+
+body {
+    font-family: arial;
+    position: absolute;
+    width: 1200px;
+}
+table{
+	font-size:13px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+table {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+ul {
+    font-weight: bold;
+    list-style: none outside none;
+    margin-top: 5px;
+}
+li {
+    margin-top: 20px;
+}
+select {
+    display: inline;
+    font-family: arial;
+}
+input {
+    font-family: arial;
+}
+p {
+    font-family: arial;
+}
+label {
+    font-family: arial;
+}
+legend {
+    font-family: arial;
+}
+li select {
+    margin-left: 1%;
+}
+#homepage_contain {
+    width: 900px;
+}
+#home_header {
+    margin-left: 5%;
+}
+#homepage {
+    float: left;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+#homeInput {
+}
+#submit_recovery {
+    background-color: black;
+    color: yellow;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+#submit_recovery:hover {
+    background-color: green;
+    cursor: pointer;
+}
+#recovery {
+    background-color: yellow;
+    border: 5px solid black;
+    margin-top: 5%;
+    text-align: center;
+}
+#recovery li {
+}
+#forgot {
+    margin-top: 2%;
+}
+#login {
+    background-color: green;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8%;
+    width: 48%;
+}
+#login:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#accountLinks {
+    margin-top: 5%;
+    text-align: center;
+}
+#accountLinks input {
+    background-color: green;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 8%;
+    width: 48%;
+}
+#accountLinks input:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#signup_contain {
+    width: 1300px;
+}
+#signup_to_home {
+    background-color: green;
+    color: yellow;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    height: 50px;
+    margin-left: -5%;
+    width: 7.2%;
+}
+#signup_to_home:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#signup_body {
+    float: left;
+    padding: 5%;
+}
+#signup_area {
+    background-color: green;
+    border: 5px solid black;
+    color: yellow;
+    float: left;
+    margin-left: 14%;
+    margin-top: 5%;
+    padding: 2%;
+    width: 480px;
+}
+#signup_info {
+    background-color: black;
+    border: 5px solid yellow;
+    color: yellow;
+    float: left;
+    margin-left: -5%;
+    margin-top: 5%;
+    padding-right: 2.5%;
+    width: 40%;
+}
+#signup_info ul {
+    list-style: disc outside none;
+}
+#signup_labels {
+    background-color: green;
+    float: left;
+    width: 450px;
+    margin-left: 10%;
+}
+#signup_input {
+    background-color: green;
+    float: left;
+}
+#signup_input li {
+    margin-left: 0;
+    margin-top: 10%;
+}
+#signup_error_field label {
+    margin-left: 0;
+}
+#signup_error_field {
+    background-color: yellow;
+    border: 5px solid black;
+    color: green;
+    float: left;
+    margin: 10% 10% 10% 15%;
+    padding: 2% 10% 2% 2%;
+}
+#signup_error_field ul {
+    list-style: disc outside none;
+}
+#signup_submit_field {
+    float: right;
+    margin-right: 27.5%;
+    margin-top: 5%;
+}
+#signup_form_submit {
+    background-color: green;
+    color: yellow;
+    float: right;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 2.5em;
+    margin-right: 25%;
+    width: 130px;
+}
+#signup_form_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+    font-family: arial;
+}
+#header_area {
+    border: 5px solid black;
+    float: left;
+    margin-left: 2%;
+    width: 97%;
+}
+.mainpage_options {
+    margin-top: 1%;
+}
+#logout {
+    background-color: green;
+    color: yellow;
+    font-family: arial;
+}
+#logout:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#admin_header {
+    float: left;
+    padding-left: 1%;
+    text-decoration: underline;
+}
+#welcome {
+    float: left;
+    margin: 20px 20px 20px 8.5%;
+    width: 70%;
+}
+#welcome h2 {
+    margin-left: 22%;
+}
+#options_area {
+    float: right;
+    margin-top: 0.5%;
+    width: 6%;
+}
+.mainpage_options {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+}
+.mainpage_options:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+.people_search_items {
+    background-color: yellow;
+    border-radius: 40px 40px 40px 40px;
+    color: green;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 0.4%;
+}
+.people_search_items:hover {
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+}
+#main_content {
+    border: 5px solid green;
+    float: left;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 97%;
+}
+.fset {
+    float: left;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    padding-right: 0.5%;
+    margin-left:23px;
+    width:95%
+}
+#homeInput {
+    background-color: green;
+    border: 5px solid black;
+    color: yellow;
+    text-align: center;
+}
+.ECR_search {
+    background-color: yellow;
+    border-radius: 40px 40px 40px 40px;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.ECR_search:hover {
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+}
+#CECR_options {
+    border: 5px solid black;
+    color: green;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+}
+#sort_input {
+    margin-left: 10px;
+}
+.edit_error {
+    color: red;
+    margin-left: 10px;
+}
+#people_edit {
+    color: green;
+    float: left;
+    height: auto;
+    width: 51%;
+}
+#country_edit {
+    background-color: yellow;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    color: blue;
+    float: left;
+    font-size: 15px;
+    margin-left: 2%;
+    padding: 20px 1% 1%;
+    width: 460px;
+}
+#NATO_c_resp_confirm {
+    float: left;
+    font-weight: bold;
+    margin-left: 17%;
+    margin-top: 4%;
+}
+#NATO_c_resp_confirm input {
+    display: inline;
+    margin-top: -5.2%;
+}
+#c_edit_big_div {
+    margin-left: 10%;
+    width: 87%;
+}
+.partner_nation_class {
+    background-color: green;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    float: left;
+    margin-top: 5%;
+    width: 97%;
+    margin-left: 16px;
+}
+.partner_nation_confirm_class {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-left: 36%;
+    margin-top: 3%;
+}
+.partner_leader_edit_div_sub {
+    color: white;
+    float: left;
+    font-size: 13px;
+    margin-left: 0.15%;
+}
+#create_new_person {
+    background-color: yellow;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    float: left;
+    margin-top: 3%;
+    width: 40%;
+}
+#create_new_person select {
+    margin-left: 0.5%;
+}
+#create_new_person input {
+    margin-left: 0.5%;
+}
+#people_edit_submit {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-family: arial;
+    font-size: 200%;
+    font-weight: bold;
+    height: 100px;
+    width: 200%;
+}
+.make_admin {
+    margin-left: 2%;
+}
+#people_submit_div {
+    float: left;
+    margin-left: 51%;
+    margin-top: 0%;
+}
+#people_edit_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+div.partner_n_edit_div_sub label {
+    margin-left: 10px;
+    font-size: 13px;
+}
+div.partner_n_edit_div_sub {
+    color: white;
+    float: left;
+    font-size: 15px;
+    margin-left: -0.5%;
+}
+div.c_edit_div {
+    display: block;
+    margin-left: 8%;
+}
+div.c_edit_div_sub {
+    color: black;
+    float: left;
+}
+div.c_edit_div_sub label {
+    margin-left: 10px;
+}
+#country_leader_responsibility_edit {
+    background-color: orange;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 15px;
+    width: 97%;
+}
+.leader_edit_div_sub {
+    color: blue;
+    float: left;
+    font-size: 14px;
+    margin-left: 1.15%;
+}
+.leader_edit_row {
+    font-weight: bold;
+    list-style: none outside none;
+    margin-top: 5px;
+}
+#res_submit {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+#res_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#CECR_all {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+#CECR_all:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#current_info label {
+}
+#profile_header {
+    color: green;
+    float: left;
+    width: 1176px;
+}
+#profile_display {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    height: 560px;
+    width: 1228px;
+}
+#p_updates {
+    float: left;
+    margin-left: 31%;
+}
+#p_error_box {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-bottom: 4%;
+    margin-left: 35%;
+    padding: 0 2% 2%;
+    width: 30%;
+}
+.p_errors {
+    color: red;
+}
+#p_your_profile {
+    float: left;
+    margin-left: 45.5%;
+}
+#p_options {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-left: 88%;
+    margin-top: -7%;
+    padding-right: 2%;
+}
+.p_options_class {
+    background-color: green;
+    color: yellow;
+    font-weight: bold;
+}
+.p_options_class:hover {
+    background-color: black;
+}
+#p_options input {
+    font-family: arial;
+}
+#p_options li {
+}
+#p_error_box ul {
+    list-style-type: circle;
+}
+#p_sub_header {
+    float: left;
+    margin-left: 36%;
+}
+#p_current_info {
+    float: left;
+    margin-left: 10%;
+    width: 343px;
+}
+#p_edit_info {
+    float: left;
+    margin-left: 30%;
+}
+.profile_labels {
+    float: left;
+	display:inline;
+}
+#profile_variables {
+    float: left;
+}
+#profile_edit_display {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    height: 696px;
+    /* margin-left: 5%; */
+    overflow: hidden;
+    padding-bottom: 6.345%;
+    padding-right: 5%;
+    width: 665px;
+    display: inline;
+    height: 1070px;
+}
+#profile_edit {
+    float: left;
+}
+.remove_person_field {
+    margin-left: 7px;
+}
+#profile_edit_input {
+    float: left;
+    width: 60%;
+}
+#profile_edit_input li {
+    margin-top: 15.3px;
+}
+.profile_text {
+    margin-left: 20px;
+    left: 0;
+}
+#profile_content1 {
+    float: left;
+    width: 100%;
+}
+#profile_content2 {
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+#p_submit_changes {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 42.5%;
+    margin-top: 3%;
+}
+#p_submit {
+    background-color: red;
+    font-family: arial;
+    font-size: 120%;
+    font-weight: bold;
+    height: 10%;
+    width: 200px;
+}
+#sub_profile_content2 {
+    background-color: yellow;
+    border: 5px solid black;
+    display: inline;
+    float: left;
+    margin-left: 29%;
+    padding-right: 0.5%;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    height: 225px;
+}
+#pass_change {
+    float: left;
+}
+#pass_input {
+    float: left;
+}
+#pass_input input {
+    margin-left: -15%;
+}
+#pass_input li {
+    margin-top: 9.5%;
+}
+#p_submit:hover {
+    background-color: green;
+    cursor: pointer;
+}
+#sub_profile_content2 p {
+    color: red;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
+#create_new_person_help {
+    background-color: black;
+    border: 5px dotted yellow;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    float: left;
+    padding: 4.4% 1.4% 1.4% 6%;
+    width: 95%;
+}
+#create_new_person_help li {
+    list-style: disc outside none;
+}
+#new_acc_by_admin_submit {
+    background-color: black;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+}
+#new_acc_by_admin_submit:hover {
+    background-color: green;
+    cursor: pointer;
+}
+#new_acc_by_admin_submit_div {
+    margin-bottom: 3%;
+    text-align: center;
+}
+#create_new_person_big_div {
+    float: left;
+    padding-left: 4%;
+    margin-bottom: 2%;
+}
+#create_new_person_errors {
+    background-color: red;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    color: white;
+    float: left;
+    margin-top: 16%;
+    width: 98%;
+}
+#create_new_person_right_div {
+    float: left;
+    margin-left: 14.5%;
+    padding-top: 2.5%;
+    width: 38%;
+}
+#create_new_person_errors li {
+    list-style: disc outside none;
+}
+#my_profile_body {
+    float: left;
+}
+.profile_edit_filler{
+	text-decoration:none;
+}
+#p_last_name_input{
+    margin-left: 30%;
+}
+#p_first_name_input{
+    margin-left: 30%;
+}
+#p_nat_input{
+    margin-left: 186px;
+}
+#p_rank_input{
+    margin-left: 228px;
+}
+#p_EC_input{
+    margin-left: 239px;
+}
+#p_CAG_input{
+    margin-left: 233px;
+}
+#p_pe_input1{
+    margin-left: 6%;
+}
+#p_BoT_input{
+    margin-left: 56px;
+}
+#p_EoT_input{
+    margin-left: 104px;
+}
+#p_NATO_PASS_input{
+    margin-left: 191px;
+}
+#p_SHAPE_ID_input{
+    margin-left: 180px;
+}
+#p_DoB_input{
+    margin-left: 97px;
+}
+#p_passport_input{
+    margin-left: 167px;
+}
+#p_passport_expiry_input{
+    margin-left: 35px;
+}
+#p_email_input{
+    margin-left: 210px;
+}
+#p_phone_input{
+    margin-left: 202px;
+}
+#p_username_input{
+    margin-left: 174px;
+}
+#old_pass{
+    margin-left: 20%;
+}
+#new_pass{
+    margin-left: 18%;
+}
+#confirm_pass{
+    margin-left: 3%;
+}
+#sub_profile_content2 li{
+	margin-left: 8%;
+}
+#s_last_name{
+    margin-left: 23%;
+}
+#s_first_name{
+    margin-left: 23%;
+}
+#s_email{
+    margin-left: 32%;
+}
+#s_usernamecreate{
+    margin-left: 23%;
+}
+#s_userpass{
+    margin-left: 23%;
+}
+#s_check_userpass{
+    margin-left: 7%;
+}
+#big_profile_edit_display{
+	float:left;
+	margin-left: 21%;
+}
+#EC_people_responsibilities{
+	float:left;
+	padding: 2%;
+	width: 90%;
+	border: 5px solid black;
+	background-color: ghostwhite;
+	margin-left: 31px;
+}
+#EC_people_profiles{
+	float:left;
+	border: 5px solid black;
+	width: 94%;
+	margin-top: 1%;
+	background-color: gainsboro;
+	margin-left: 31px;
+}
+#CAG_people_responsibilities{
+	float:left;
+	border: 5px solid black;
+	background-color: ghostwhite;
+}
+#CAG_people_profiles{
+	float:left;
+	border: 5px solid black;
+	margin-top: 1%;
+	background-color: gainsboro;
+}
+#all_EC_responsibilities{
+	float:left;
+	border: 5px solid black;
+	margin-top: 1%;
+	width: 94%;
+	background-color: #AAAAAA;
+	margin-left: 31px;
+	margin-bottom: 3%;
+}
+#all_CAG_responsibilities{
+	float:left;
+	border: 5px solid black;
+	margin-top: 1%;
+	background-color: #AAAAAA;
+	margin-bottom: 2%;
+}
+#people_search_div{
+	float:left;
+	border:5px solid black;
+	width: 95%;
+	margin-left: 23px;
+	background-color: green;
+}
+#people_edit_div{
+	float:left;
+	border:5px solid black;
+	margin-bottom: 2%;
+	background-color: ghostwhite;
+}
+#individual_country_responsibilities_div{
+	float:left;
+	border:5px solid black;
+	background-color: yellow;
+}
+#cell_CAG_responsibilities_div{
+	float:left;
+	border:5px solid black;
+}
+#countries_cells_responsibilities_div{
+	float:left;
+	border:5px solid black;
+	background-color: green;
+}
+#CAG_responsibilities{
+	float:left;
+	border:5px solid black;
+	background-color: yellow;
+}
+#cell_responsibilities{
+	float:left;
+	border:5px solid black;
+	background-color: green;
+}
+.cell_CAG_profile_responsibilities{
+	float:left;
+	margin-left:31px;
+	width:95%;
+}
+#profile_content3{
+	float:left;
+	border:5px solid black;
+	padding: 45px;
+	padding-top: 10px;
+	margin-top: 2%;
+	background-color: green;
+	color: yellow;
+	width: 1140px;
+}
+#p_security_clearance{
+    margin-left: 114px;
+
+}
+#p_credit_card_company_input{
+    margin-left: 94px;
+}
+#p_credit_card_number_input{
+    margin-left: 106px;
+}
+#p_credit_card_expiry_input{
+    margin-left: 77px;
+}
+#p_secondary_email_input{
+    margin-left: 141px;
+}
+#p_mobile_input{
+    margin-left: 202px;
+}
+#p_street_input{
+    margin-left: 30px;
+}
+#p_tasks{
+
+}
+.profile_sub_labels{
+	border: 2px solid black;
+}
+.profile_info{
+	text-decoration:underline;
+}
+#profile_labels1{
+    width: 365px;
+}
+#profile_labels2{
+    width: 361px;
+}
+#profile_labels3{
+    width: 502px;
+}
+#profile_labels4{
+    width: 566px;
+}
+#profile_labels5{
+    width: 662px;
+}
+#profile_category1{
+float:left;
+}
+#profile_category2{
+float:left;
+}
+#p_label1{
+    margin-left: 89px;
+}
+#p_label2{
+    margin-left: 26px;
+}
+#p_label3{
+    margin-left: 25px;
+}
+#p_label4{
+    margin-left: 25px;
+}
+#p_label5{
+    margin-left: 67px;
+}
+#p_label6{
+    margin-left: 79px;
+}
+#p_label7{
+    margin-left: 65px;
+}
+#p_label8{
+    margin-left: 15px;
+}
+#p_label9{
+    margin-left: 48px;
+}
+#p_label10{
+    margin-left: 25px;
+}
+#p_label11{
+    margin-left: 73px;
+}
+#p_label12{
+    margin-left: 24px;
+}
+#p_label13{
+    margin-left: 42px;
+}
+#p_label14{
+    margin-left: 23px;
+}
+#p_label15{
+    margin-left: 29px;
+}
+#p_label16{
+    margin-left: 20px;
+}
+#p_label17{
+    margin-left: 37px;
+}
+#p_label18{
+    margin-left: 19px;
+}
+#p_label19{
+    margin-left: 42px;
+}
+#p_label20{
+    margin-left: 19px;
+}
+#p_label21{
+    margin-left: 19px;
+}
+#p_label22{
+    margin-left: 26px;
+}
+#p_label23{
+    margin-left: 86px;
+}
+#p_label24{
+    margin-left: 86px;
+}
+#p_label25{
+    margin-left: 27px;
+}
+#p_label26{
+    margin-left: 14px;
+}
+#p_label27{
+    margin-left: 42px;
+}
+#profile_content3 textarea{
+    background-color: yellow;
+    font-family: arial;
+    font-size: 17px;
+    height: 250px;
+    width: 1140px;
+    margin-top: 2%;
+}
+#profile_email_phone_div{
+	border-right: 4px solid black;
+}
+#profile_username_admin_div{
+	border-bottom: 4px solid black;
+}
+#tasks_edit{
+    float: left;
+
+    border: 5px dotted yellow;
+    border-radius: 40px;
+    padding: 20px;
+    padding-top: 0px;
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+#tasks_edit_area{
+
+    resize: none;
+    
+
+    width: 438px;
+
+    height: 200px;
+
+    font-family: arial;
+
+    font-size: 14px;
+
+}
+#address_edit{
+	width:105px;
+}
+#address_edit2{
+	width:64px;
+	margin-left:3px;
+}
+#address_edit3{
+	width:83px;
+	margin-left:3px;
+}
+#edit_errors_div{
+	float:left;
+	border:5px solid black;
+	margin-left: 2%;
+	margin-top: 2%;
+	padding-right: 2%;
+	color: red;
+	padding-left: 2%;
+	margin-bottom: 2%;
+}
+#edit_errors_div ul{
+	list-style:disc;
+}
+#task_remove_header{
+    display: block;
+
+    padding-bottom: 4%;
+    text-align: center;
+    font-weight: bold;
+}
+#p_tasks{
+	resize:none;
+}
+#p_remove_tasks_label{
+
+    font-weight: bold;
+}
+#p_remove_tasks{
+
+}
+#confirm_database_dump{
+    color: yellow;
+    background-color: green;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2%;
+}
+#confirm_database_dump:hover{
+	color:green;
+	background-color:yellow;
+}
+#pe_flag_edit{
+    width: 122px;
+
+}
+#pe_num_edit{
+    width: 33px;
+}

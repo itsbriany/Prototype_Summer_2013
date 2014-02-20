@@ -1,0 +1,519 @@
+
+body {
+    font-family: arial;
+    position: absolute;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+table {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+ul {
+    font-weight: bold;
+    list-style: none outside none;
+    margin-top: 5px;
+}
+li {
+    margin-top: 20px;
+}
+select {
+    display: inline;
+    font-family: arial;
+}
+input {
+    font-family: arial;
+}
+p {
+    font-family: arial;
+}
+label {
+    font-family: arial;
+}
+legend {
+    font-family: arial;
+}
+#signup_to_home {
+    background-color: green;
+    color: yellow;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 35%;
+    width: 30%;
+}
+#signup_to_home:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#signup_body {
+    float: left;
+    padding: 5%;
+}
+#signup_area {
+    background-color: green;
+    border: 5px solid black;
+    color: yellow;
+    float: left;
+    margin-left: 18%;
+    margin-top: 5%;
+    padding: 2%;
+    width: 27em;
+}
+#signup_info {
+    background-color: black;
+    border: 5px solid yellow;
+    color: yellow;
+    float: left;
+    margin-left: -5%;
+    margin-top: 5%;
+    padding-right: 2.5%;
+    width: 40%;
+}
+#signup_info ul {
+    list-style: disc outside none;
+}
+#signup_labels {
+    background-color: green;
+    float: left;
+}
+#signup_input {
+    background-color: green;
+    float: left;
+}
+#signup_input li {
+    margin-left: 0;
+    margin-top: 10.2%;
+}
+#signup_error_field label {
+    margin-left: 0;
+}
+#signup_error_field {
+    background-color: yellow;
+    border: 5px solid black;
+    color: green;
+    float: left;
+    margin: 10% 10% 10% 15%;
+    padding: 2% 10% 2% 2%;
+}
+#signup_error_field ul {
+    list-style: disc outside none;
+}
+#signup_submit_field {
+    float: left;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+#signup_form_submit {
+    background-color: green;
+    color: yellow;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 2.5em;
+    width: 250%;
+}
+#signup_form_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+    font-family: arial;
+}
+#header_area {
+    border: 5px solid black;
+    float: left;
+    width: 99%;
+}
+.mainpage_options {
+    margin-top: 1%;
+}
+#logout {
+    background-color: green;
+    color: yellow;
+    font-family: arial;
+}
+#logout:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#admin_header {
+    float: left;
+    padding-left: 1%;
+    text-decoration: underline;
+}
+#welcome {
+    float: left;
+    margin: 20px 20px 20px 8.5%;
+    width: 70%;
+}
+#welcome h2 {
+    margin-left: 22%;
+}
+#options_area {
+    float: right;
+    margin-top: 0.5%;
+    width: 6%;
+}
+.mainpage_options {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+}
+.mainpage_options:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+.people_search_items {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 0.4%;
+}
+.people_search_items:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#main_content {
+    border: 5px solid green;
+    float: left;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.fset {
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+#homeInput {
+    border: 5px solid black;
+    color: red;
+    float: left;
+    text-align: center;
+}
+.ECR_search {
+    background-color: yellow;
+    border-radius: 40px 40px 40px 40px;
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.ECR_search:hover {
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+}
+#CECR_options {
+    border: 5px solid black;
+    color: green;
+    font-family: arial;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 20px;
+}
+#sort_input {
+    margin-left: 10px;
+}
+.edit_error {
+    color: red;
+    margin-left: 10px;
+}
+#people_edit {
+    color: green;
+    float: left;
+    height: auto;
+    width: 50%;
+}
+#country_edit {
+    background-color: yellow;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    color: blue;
+    float: left;
+    font-size: 15px;
+    margin-left: 6%;
+    padding: 20px 1% 1%;
+}
+#NATO_c_resp_confirm {
+    float: left;
+    font-weight: bold;
+    margin-left: 17%;
+    margin-top: 4%;
+}
+#NATO_c_resp_confirm input {
+    display: inline;
+    margin-left: 79%;
+    margin-top: -5.2%;
+}
+#c_edit_big_div {
+    margin-left: 10%;
+    width: 87%;
+}
+#partner_nation_responsibilities_edit {
+    background-color: green;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+#confirm_partner_nations_div {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-left: 36%;
+    margin-top: 3%;
+}
+#people_edit_submit {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-family: arial;
+    font-size: 200%;
+    font-weight: bold;
+    height: 100px;
+    width: 200%;
+}
+.make_admin {
+    margin-left: 2%;
+}
+#people_submit_div {
+    float: left;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#people_edit_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+div.partner_n_edit_div_sub label {
+    margin-left: 10px;
+}
+div.partner_n_edit_div_sub {
+    color: white;
+    float: left;
+    font-size: 15px;
+    margin-left: -0.5%;
+}
+div.c_edit_div {
+    display: block;
+    margin-left: 8%;
+}
+div.c_edit_div_sub {
+    color: black;
+    float: left;
+}
+div.c_edit_div_sub label {
+    margin-left: 10px;
+}
+#country_leader_responsibility_edit {
+    background-color: orange;
+    border: 5px dotted black;
+    border-radius: 40px 40px 40px 40px;
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+.leader_edit_div_sub {
+    color: blue;
+    float: left;
+    font-size: 15px;
+    margin-left: 1.15%;
+}
+.leader_edit_row {
+    font-weight: bold;
+    list-style: none outside none;
+    margin-top: 5px;
+}
+#res_submit {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+#res_submit:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#CECR_all {
+    background-color: green;
+    border-radius: 40px 40px 40px 40px;
+    color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+#CECR_all:hover {
+    background-color: yellow;
+    color: green;
+    cursor: pointer;
+}
+#current_info label {
+    text-decoration: underline;
+}
+#profile_header {
+    color: green;
+    float: left;
+    padding-right: 10%;
+}
+#profile_display {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-left: 6%;
+    padding-right: 2%;
+}
+#p_updates {
+    float: left;
+    margin-left: 30%;
+}
+#p_error_box {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-left: 36%;
+    padding: 0 2% 2%;
+    width: 30%;
+}
+.p_errors {
+    color: red;
+}
+#p_your_profile {
+    float: left;
+    margin-left: 45%;
+}
+#p_options {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-left: 95%;
+    margin-top: -7%;
+    padding-right: 2%;
+}
+.p_options_class {
+    background-color: green;
+    color: yellow;
+    font-weight: bold;
+}
+.p_options_class:hover {
+    background-color: black;
+}
+#p_options input {
+    font-family: arial;
+}
+#p_options li {
+}
+#p_error_box ul {
+    list-style-type: circle;
+}
+#p_sub_header {
+    float: left;
+    width: 99%;
+}
+#p_current_info {
+    float: left;
+    margin-left: 14%;
+}
+#p_edit_info {
+    float: right;
+    margin-right: 22%;
+}
+#profile_labels {
+    float: left;
+}
+#profile_variables {
+    float: left;
+}
+#profile_edit_display {
+    background-color: yellow;
+    border: 5px solid black;
+    float: right;
+    margin-right: 7%;
+    padding-bottom: 6.345%;
+    padding-right: 5%;
+}
+#profile_edit {
+    float: left;
+}
+.remove_person_field {
+    margin-left: 3%;
+}
+#profile_edit_input {
+    float: left;
+    width: 60%;
+}
+#profile_edit_input li {
+    margin-top: 6.46%;
+}
+.profile_text {
+    margin-left: 20px;
+}
+#profile_content1 {
+    float: left;
+    width: 100%;
+}
+#profile_content2 {
+    float: left;
+    margin-top: 5%;
+    width: 100%;
+}
+#p_submit_changes {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 40.5%;
+    margin-top: 3%;
+}
+#p_submit {
+    background-color: red;
+    font-family: arial;
+    font-size: 120%;
+    font-weight: bold;
+    height: 10%;
+    width: 200px;
+}
+#sub_profile_content2 {
+    background-color: yellow;
+    border: 5px solid black;
+    float: left;
+    margin-left: 32%;
+    padding-right: 0.5%;
+}
+#pass_change {
+    float: left;
+}
+#pass_input {
+    float: left;
+}
+#pass_input input {
+    margin-left: -20%;
+}
+#pass_input li {
+    margin-top: 9.5%;
+}
+#p_submit:hover {
+    background-color: green;
+    cursor: pointer;
+}
+#sub_profile_content2 p {
+    color: red;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+}
