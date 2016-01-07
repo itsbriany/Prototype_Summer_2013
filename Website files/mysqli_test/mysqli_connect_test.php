@@ -1,6 +1,6 @@
 <?php
 	
-	$db = new mysqli('localhost', 'root', 'Brian5961', '1st home project');
+	$db = new mysqli('localhost', 'root', '', '1st home project');
 	if($db->connect_errno > 0){
 		die('Unable to connect to database ['.$db->connect_error.']');
 	}
