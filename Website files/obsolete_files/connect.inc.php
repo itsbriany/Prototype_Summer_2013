@@ -5,7 +5,7 @@
 
 	$mysql_host = 'localhost';
 	$mysql_user = 'root';
-	$mysql_pass = 'Brian5961';
+	$mysql_pass = '';
 
 	$mysql_db = '1st home project';
 	
